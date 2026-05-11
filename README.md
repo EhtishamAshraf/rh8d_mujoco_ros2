@@ -15,6 +15,9 @@ Tested on:
 - ROS 2 Humble
 - MuJoCo
 
+Demo video:
+[![Demo Video](https://github.com/EhtishamAshraf/rh8d_mujoco_ros2/blob/42d79a12e8eb45b62df5007362b32549ec2f6697/assets/ros2_cylinder.png)](https://youtu.be/hQMjRyygGjY)
+
 ---
 
 ## Build and Launch Instructions
