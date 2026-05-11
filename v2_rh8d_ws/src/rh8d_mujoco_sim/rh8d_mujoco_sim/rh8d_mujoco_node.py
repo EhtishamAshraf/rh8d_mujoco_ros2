@@ -230,6 +230,11 @@ class RH8DMujocoNode(Node):
 
         self.contact_pub.publish(contacts)
 
+    """
+    Main simulation loop running in a separate thread.
+    Steps the MuJoCo physics simulation, writes actuator commands, 
+    syncs the viewer, and publishes state continuously until the node shuts down.
+    """
     def run_simulation(self):
         while self.sim_active:
             try:
