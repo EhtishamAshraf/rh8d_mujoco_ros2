@@ -33,7 +33,7 @@ Source the workspace:
 ```bash
 source install/setup.bash
 ```
-
+Run the nodes:
 ```bash
 ros2 run rh8d_mujoco_sim rh8d_mujoco_node --ros-args -p model_path:=/home/ehtisham/Desktop/Robotics_uclv/03_PROJECTS/P1_rh8d_sim/2-MuJoCo/ros2/v2_rh8d_ws/src/rh8d_mujoco_sim/assets/mjcf/scene.xml
 
